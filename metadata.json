@@ -1,0 +1,7 @@
+{
+  "name": "Sohay - Local Service Provider",
+  "description": "A premium platform to find and connect with professional local service providers like electricians, plumbers, and more.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
