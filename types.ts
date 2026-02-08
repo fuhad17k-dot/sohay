@@ -23,7 +23,7 @@ export interface ServiceProvider {
   distance?: string;
 }
 
-// Added ChatMessage interface to resolve compilation error in AIAssistant.tsx
+// Added ChatMessage interface to support the AIAssistant component's messaging state
 export interface ChatMessage {
   role: 'user' | 'model';
   text: string;

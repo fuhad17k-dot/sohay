@@ -100,6 +100,9 @@ const App: React.FC = () => {
         />
       </main>
 
+      {/* Added AIAssistant component to provide AI-powered help features */}
+      <AIAssistant />
+
       {/* Persistent Bottom Navigation */}
       <nav className="fixed bottom-0 left-0 right-0 max-w-md mx-auto bg-white/80 backdrop-blur-md border-t border-gray-100 py-3 px-8 flex justify-between items-center z-40">
         <button 
@@ -135,9 +138,6 @@ const App: React.FC = () => {
           <span className="text-[10px] font-medium">প্রোফাইল</span>
         </button>
       </nav>
-
-      {/* Added AIAssistant component to render the AI chat floating button */}
-      <AIAssistant />
     </div>
   );
 };
